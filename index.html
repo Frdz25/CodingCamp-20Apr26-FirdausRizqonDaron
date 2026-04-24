@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Life Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-side"></div>
+    <section id="clock" aria-label="Clock and greeting">
+      <p id="clock-greeting"></p>
+      <time id="clock-time"></time>
+      <p id="clock-date"></p>
+    </section>
+    <div class="header-side header-side--right">
+      <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="timer-section" aria-label="Focus timer">
+      <h2>Focus Timer</h2>
+      <div id="timer-display" aria-live="polite">25:00</div>
+      <div class="timer-controls">
+        <button id="timer-start">Start</button>
+        <button id="timer-stop">Stop</button>
+        <button id="timer-reset">Reset</button>
+      </div>
+      <div class="timer-adj">
+        <button id="timer-decrease" aria-label="Decrease duration">−</button>
+        <button id="timer-increase" aria-label="Increase duration">+</button>
+      </div>
+    </section>
+
+    <section id="tasks-section" aria-label="To-do list">
+      <h2>Tasks</h2>
+      <div class="task-input-row">
+        <input id="task-input" type="text" placeholder="New task…" aria-label="New task title" />
+        <button id="task-add-btn">Add</button>
+      </div>
+      <p id="task-error" role="alert" aria-live="polite"></p>
+      <div class="sort-controls">
+        <button id="task-sort-name">Sort by Name</button>
+        <button id="task-sort-status">Sort by Status</button>
+      </div>
+      <ul id="task-list" aria-label="Task list"></ul>
+    </section>
+
+    <section id="links-section" aria-label="Quick links">
+      <h2>Quick Links</h2>
+      <div class="link-input-row">
+        <input id="link-label-input" type="text" placeholder="Label" aria-label="Link label" />
+        <input id="link-url-input" type="url" placeholder="https://…" aria-label="Link URL" />
+        <button id="link-add-btn">Add</button>
+      </div>
+      <p id="link-error" role="alert" aria-live="polite"></p>
+      <div id="links-panel" aria-label="Quick links panel"></div>
+    </section>
+  </main>
+</body>
+</html>

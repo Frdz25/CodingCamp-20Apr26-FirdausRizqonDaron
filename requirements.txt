@@ -1,0 +1,36 @@
+# requirements.txt
+#
+# This is a client-side JavaScript project — there are no Python or server-side
+# dependencies. The runtime requires only a modern web browser.
+#
+# Development dependencies are managed via npm and defined in package.json.
+# Install them with:
+#
+#   npm install
+#
+# ─── Dev Dependencies (from package.json) ────────────────────────────────────
+#
+# vitest@^2.1.9
+#   Test runner for Vanilla JS / ES modules.
+#   Used to run the unit and property-based test suite.
+#   https://vitest.dev/
+#
+# fast-check@^3.23.2
+#   Property-based testing library for JavaScript.
+#   Used to generate arbitrary inputs and verify correctness properties.
+#   https://github.com/dubzzz/fast-check
+#
+# jsdom@^29.0.2
+#   DOM simulation environment for Node.js.
+#   Used by Vitest to run browser-DOM tests outside a real browser.
+#   https://github.com/jsdom/jsdom
+#
+# ─── Runtime Requirements ─────────────────────────────────────────────────────
+#
+# - A modern web browser (Chrome 120+, Firefox 120+, Edge 120+, Safari 17+)
+# - No server, no build tool, no network requests after initial page load
+#
+# ─── Node.js (for running tests only) ────────────────────────────────────────
+#
+# Node.js >= 18.0.0
+# npm   >= 9.0.0

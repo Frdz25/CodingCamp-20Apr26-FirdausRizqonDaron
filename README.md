@@ -4,9 +4,9 @@ A single-page personal productivity dashboard built with plain HTML, CSS, and Va
 
 ## Features
 
-- **Real-time clock** — displays current time (HH:MM:SS), date, and a time-sensitive greeting (Good Morning / Afternoon / Evening / Night)
-- **Focus timer** — configurable countdown (1–60 min, default 25 min) with start, stop, and reset controls; plays an audio alert on completion
-- **To-do list** — add, edit, delete, and complete tasks; sort by name or status; duplicate and empty-title validation
+- **Real-time Clock** — displays current time (HH:MM:SS), date, and a time-sensitive greeting (Good Morning / Afternoon / Evening / Night)
+- **Adjustable Pomodoro Timer** — configurable countdown (1–60 min, default 25 min) with start, stop, and reset controls; plays an audio alert on completion
+- **To-do List with Sorting** — add, edit, delete, and complete tasks; can be sort by name or status; prevent duplicate and empty-title tasks
 - **Quick links** — save labeled URL shortcuts that open in a new tab; validates `http://` / `https://` scheme
 - **Dark mode** — toggle between light and dark themes; preference persisted across sessions
 
